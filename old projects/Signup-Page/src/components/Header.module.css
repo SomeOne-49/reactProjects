@@ -1,0 +1,35 @@
+.header {
+  background-color: #009688;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 10px;
+  padding-inline: 20px;
+}
+
+.header .logo {
+  color: #8bc34a;
+}
+
+.header .nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: bisque;
+  cursor: pointer;
+}
+
+.header .nav ul .logout {
+  background-color: #f44336;
+  border-radius: 200px;
+  padding: 10px 25px;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.header .nav ul .logout:hover {
+  opacity: 1;
+}
